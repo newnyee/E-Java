@@ -114,8 +114,15 @@ public class BankApplication {
     }
 
     // findAccount 메소드 생성
+    /*
+    ano : 계좌번호
+     */
     private static Account findAccount(String ano) {
         Account account = null;
+//        Account account1;
+//        account1 = new Account();
+//        account1 = null;
+
         for(int i = 0; i<accountArray.length; i++) {
             if(accountArray[i] != null) {
                 String dbAno = accountArray[i].getAno();

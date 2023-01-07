@@ -104,7 +104,7 @@ public class BankApplicationII {
     private static void withdraw() {
         System.out.print("계좌번호: ");
         String ano = scanner.nextLine();
-        System.out.print("예금액: ");
+        System.out.print("출금액: ");
         int money = Integer.parseInt(scanner.nextLine());
 
         for (int i = 0; i < accountArray.length; i++) {
