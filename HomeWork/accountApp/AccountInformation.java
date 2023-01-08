@@ -1,12 +1,12 @@
 package e_java.HomeWork.accountApp;
 
-public class Account {
+public class AccountInformation {
     private String acnNum;
     private String owner;
     private int balance;
 
 
-    public Account() {
+    public AccountInformation() {
 
     }
 
